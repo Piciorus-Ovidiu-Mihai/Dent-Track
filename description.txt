@@ -1,0 +1,47 @@
+Componente
+
+Technician 
+-nume 
+-prenume
+-n0 projects (active)
+-buton (add project)
+-view projects
+
+Treatment
+-Nume 
+-medic
+-Technician
+-pas curent 
+-deadline pas curent
+-buton detail
+
+
+yourTreatment
+-Treatment 0..*
+
+Detailed Treatment
+
+- nume v
+-pas curent v
+-medic v
+-Technician v
+-istoric 
+-pacient v
+-detalii
+-data deadline v
+-data primire v 
+-buton finalizare pas (medic+tech)
+-buton repetare pas (medic)
+-buton modificare deadline (medic)
+
+all Technicians 
+-Technician 0..*
+
+Accounts
+-nume
+-prenume
+-username
+-role
+-numar de telefon 
+-delete
+-modify
